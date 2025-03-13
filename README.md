@@ -4,27 +4,30 @@ A complete walkthrough on how to build an MCP server to serve a trained Random F
 ## See it live and in action 📺
 <a href="https://www.linkedin.com/posts/nicholasrenotte_mcp-servers-make-tools-a-bunch-easier-for-activity-7305748751162163200-dIEn?utm_source=share&utm_medium=member_desktop&rcm=ACoAABbxZgUBrud9C531KZPQHCs2riXCiv9Av2A"><img src="https://i.imgur.com/Y2LN9dd.png"/></a>
 
-# Startup FastAPI Hosted ML Server 
-https://youtu.be/C82lT9cWQiA?si=dIsL6eM1lUMAVcf0
-https://github.com/nicknochnack/CodeThat-FastML
-
 # Startup MCP Server 🚀
 1. Clone this repo `git clone https://github.com/nicknochnack/BuildMCPServer`
-2. To run the MCP server
-`cd BuildMCPServer`
-`uv venv`
-`source .venv/bin/activate`
-`uv add .`
-`uv add ".[dev]"`
+2. To run the MCP server\
+`cd BuildMCPServer`\
+`uv venv`\
+`source .venv/bin/activate`\
+`uv add .`\
+`uv add ".[dev]"`\
 `uv run mcp dev server.py`
-3. To run the agent, in a separate terminal, run
-`source .venv/bin/activate`
+3. To run the agent, in a separate terminal, run:\
+`source .venv/bin/activate`\
 `uv run singleflowagent.py`
 
-</br>
+# Startup FastAPI Hosted ML Server 
+`git clone https://github.com/nicknochnack/CodeThat-FastML`\
+`cd CodeThat-FastML`\
+`pip install -r requirements.txt`\
+`uvicorn mlapi:app --reload`\
+Detailed instructions on how to build it can also be found <a href="https://youtu.be/C82lT9cWQiA?si=dIsL6eM1lUMAVcf0">here</a></br>
+
+
 # Other References 🔗 </br>
-- https://github.com/RGGH/mcp-client-x/blob/main/src/client/mcp_client.py
-- Original Video where I build the ML server: https://www.youtube.com/watch?v=C82lT9cWQiA&t=1003s 
+- <a href="https://github.com/RGGH/mcp-client-x/blob/main/src/client/mcp_client.py">Building MCP Clients (used in singleflow agent)</a></br>
+- <a href="https://www.youtube.com/watch?v=C82lT9cWQiA&t=1003s ">Original Video where I build the ML server</a>
 
 
 # Who, When, Why?
