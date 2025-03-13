@@ -1,5 +1,5 @@
-# Build an MCP Server 
-A complete walkthrough on how to build an MCP server to serve a trained Random Forest model and integrate it with Bee Framework for ReAct interactivity.
+# Build a MCP Server 
+A complete walkthrough on how to build a MCP server to serve a trained Random Forest model and integrate it with Bee Framework for ReAct interactivity.
 
 ## See it live and in action 📺
 <a href="https://www.linkedin.com/posts/nicholasrenotte_mcp-servers-make-tools-a-bunch-easier-for-activity-7305748751162163200-dIEn?utm_source=share&utm_medium=member_desktop&rcm=ACoAABbxZgUBrud9C531KZPQHCs2riXCiv9Av2A"><img src="https://i.imgur.com/Y2LN9dd.png"/></a>
