@@ -112,7 +112,7 @@ print(df)
 ---
 <br>
 
-# Hybrid AI Data Analytics Agent for ClickHouse
+# Hybrid AI Data Analytics Agent from ClickHouse
 
 This project provides a sophisticated command-line AI agent that functions as a hybrid data analyst. It can intelligently choose between executing direct SQL queries against a ClickHouse database and performing complex data analysis using an integrated Python environment with `pandas` and `numpy`.
 
